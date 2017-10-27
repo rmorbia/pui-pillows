@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FlipSwitchPillows</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/products-style.css">
+<link rel="stylesheet" type="text/css" href="css/details-style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="wrapper"> 
+  <!--Header-->
+  <header>
+    <div class="top-bar">
+      <div class="nav-bar"> 
+        <!--Logo-->
+        <div class="grid-3"> <a class="nav-link" href="index.html">
+          <h4 class="logo"><span style="color: #52D10E">Flip</span> <span style="color: #442A04">Switch</span> <span style="color: #52D10E">Pillows</span></h4>
+          </a> </div>
+        <!--Search Bar-->
+        <div class="grid-3 correct-vert">
+          <input type="text" placeholder="Search..." class="search">
+        </div>
+        <!--Navigation Links-->
+        <div class="grid-3">
+          <nav>
+            <div class="link-box"> <a class="nav-link" href="products.html">Products</a> </div>
+            <div class="link-box"> <a class="nav-link" href="">Customize Your Own</a> </div>
+            <div class="link-box"> <a id="nav-cart" class="nav-link" href="cart.html">Cart (0)</a> </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Section - End of Header--> 
+  
+  <!--Section - Product Details--> 
+  <!--Photos-->
+  <div id="item-confirmation">
+    <p>Your items have been added to the cart!</p>
+  </div>
+  <div class="content-wrapper">
+    <div class="photos-container"> <img id="main-photo" src="img/details/main-product-couch.png"> <img id="shape-img" src="img/details/shapes-round.png" width="auto" height="60">
+      <div class="product-images"> <img class="unselected-img" src="img/details/product-view1.png"> <img class="selected-img" src="img/details/product-view2.png"> <img class="unselected-img" src="img/details/product-view3.png"> <img class="unselected-img" src="img/details/product-view4.png"> </div>
+    </div>
+    
+    <!--Text and Buttons-->
+    <div class="text-container">
+      <h2 id="product-name">Red Velvet</h2>
+      <h5 id="product-type" class="inline">Couch Pillow</h5>
+      <h5 class="inline">&nbsp;|&nbsp;</h5>
+      <h5 id="product-shape" class="inline">Round</h5>
+      <h5 id="product-rating">4/5 Stars&ensp;<span class="num-ratings">(135)</span></h5>
+      <h3 id="product-price">$40</sup></h3>
+      <div class="btn">
+        <button class="add-cart-btn">Add to Cart</button>
+      </div>
+      <select id="quantity">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <p class="product-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae rhoncus dolor. Vestibulum sed aliquam purus, eget rhoncus libero. Pellentesque eu nunc eu tortor ultricies molestie.</p>
+      <!-- Options Types -->
+      <div class="product-options">
+        <h5 class="section-title">TYPES</h5>
+        <select id="type-select">
+          <option value="Couch Pillow">Couch</option>
+          <option value="Bed Pillow">Bed</option>
+          <option value="Round Pillow">Round</option>
+          <option value="Floor Pouf Pillow">Floor Pouf</option>
+        </select>
+      </div>
+      <!-- Options Shapes -->
+      <div class="product-options">
+        <h5 class="section-title">SHAPES</h5>
+        <select id="shape-select">
+          <option value="Square">Square</option>
+          <option value="Round" selected>Round</option>
+          <option value="Dog">Dog</option>
+          <option value="Bear">Bear</option>
+          <option value="Bunny">Bunny</option>
+          <option value="Cat">Cat</option>
+        </select>
+      </div>
+      <h5 class="field-tltle custom-request">Customization Requests</h5>
+      <textarea rows="6" cols="60"></textarea>
+      <div class="btn">
+        <button class="add-cart-btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <!--Section - Footer-->
+  <footer>
+    <div>
+      <p class="logo-ft"><span style="color: #52D10E">Flip</span> <span style="color: #442A04">Switch</span> <span style="color: #52D10E">Pillows</span></p>
+      <h6>Copyright &copy; 2017</h6>
+    </div>
+  </footer>
+  <!--End of Content--> 
+</div>
+<script src="js/product.js"></script>
+</body>
+</html>

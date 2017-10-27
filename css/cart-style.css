@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+/*Page Structure*/
+.page-title {
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+
+.table-titles {
+	position: relative;
+	border-bottom: 1px solid #8A8A8A;
+	width: 900px;
+	height: 30px;
+}
+
+.col-title {
+	color: #8A8A8A;
+	line-height: 20px;
+	font-weight: 400;
+	display: inline-block;
+	position: absolute;
+	margin-bottom: 10px;
+}
+
+.pos-1 {left: 100px;}
+.pos-2 {left: 400px;}
+.pos-3 {left: 600px;}
+.pos-4 {left: 800px;}
+
+.item-container {
+	display: block;
+	width: 900px;
+	padding: 20px 0;
+	position: relative;
+	border-bottom: 1px solid #E5E5E5;
+	box-sizing: border-box;
+}
+
+.item-container * {
+	display: inline-block;
+}
+
+.hidden {
+	display: none;
+}
+
+.item-shape {
+	position: relative;
+	left: -35px;
+	background: rgba(255,255,255,0.6);
+	border-top-left-radius: 15px;
+	padding: 2px;
+}
+
+.no-items {
+	display: block;
+	width: 900px;
+	box-sizing: border-box;
+	color: #8a8a8a;
+	text-align: center;
+	padding: 100px;
+}
+
+.product-type, .product-shape {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.product {
+	display: inline-block;
+	position: absolute;
+	left: 100px;
+}
+
+.price {
+	position: absolute;
+	left: 400px;
+}
+
+.quant-del {
+	position: absolute;
+	left: 600px;
+}
+
+.remove {
+	color: #442A04;
+}
+
+.a-link .remove:hover {
+	text-decoration: underline;
+}
+
+.subtotal {
+	position: absolute;
+	left: 800px;
+}
+
